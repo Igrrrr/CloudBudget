@@ -1,0 +1,41 @@
+.slider{
+    viewport-fit: 100;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 auto;
+    background-color: #ED4C5C;
+    color: white;
+}
+
+.slider-text{
+    width: 445px;
+    /* margin-top: 122px;
+    margin-left: 165px; */
+    margin: 122px 81px 113px 165px;
+}
+
+.slider-title_align{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.slider-description_margin{
+    margin-bottom: 44px;
+}
+
+.applications{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 134px;
+    height: 32px;
+}
+
+.application-logo{
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}

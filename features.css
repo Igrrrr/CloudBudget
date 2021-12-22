@@ -1,0 +1,110 @@
+.features-container{
+   /* max-width: 1440px;
+   max-height: 660px; */
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+}
+
+.features-title {
+   /* max-width: 1110px;*/
+   margin-bottom: 63px;
+   font-size: 36px;
+   line-height: 43.2px;
+   text-align: center;
+}
+
+.features-cards{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-bottom: 229px;
+}
+
+.card1{
+   background: url("/img/card1.png") center/cover no-repeat;
+   width: 350px;
+   height: 250px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.card2{
+   background: url("/img/card2.png") center/cover no-repeat;
+   width: 350px;
+   height: 250px;
+   margin: 0px 30px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.card3{
+   background: url("/img/card3.png") center/cover no-repeat;
+   width: 350px;
+   height: 250px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+
+}
+.features-card-text{
+   width: 293px;
+   height: 198;
+   background-color: #fff;
+   /* padding: 33px 0 25px; */
+   position: absolute;
+   transform: translate(0, 50%);
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+   ;
+}
+
+.card-name{
+   margin-top: 33px;
+   width: 229px;
+   font-size: 18px;
+   line-height: 22px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.card-description{
+   width: 229px;
+   height: 57px;
+   margin: 20px 0 5px 0;
+   font-size: 12px;
+   line-height: 18px;
+   text-align: center;
+}
+
+.features-link{
+   width: 229px;
+   font-size: 12px;
+   font-weight: bold;
+   line-height: 18px;
+   color: #ED4C5C;
+   text-decoration: none;
+   margin-bottom: 25px;
+}
+
+/* .subtitle__description_margins{
+   margin: 20px 32px;
+} */
+
+.subtitle_margins{
+   margin: 33px 32px 20px;
+}
+
+.features-link{
+   margin: 25px 0;
+}

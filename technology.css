@@ -1,0 +1,82 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.technology-title {
+   margin-bottom: 52px;
+   height: 55px;
+   font-size: 36px;
+   line-height: 43.2px;
+   text-align: center;
+}
+
+.technology__cards {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 104x;
+   width: 1110px;
+   align-items: center;
+   margin: 0 auto;
+   margin-bottom: 104px;
+}
+
+.technology__card {
+   width: 255px;
+   height: 226px;
+   /* background-color: blue; */
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.technology__number {
+  font-size: 100px;
+  line-height: 120px;
+  color: rgba(16, 16, 16, 0.08);
+  margin-bottom: 19px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle__description_technology{
+   margin-top: 10px;
+}
+
+/* .technology__symbol{
+   background: url("/img/card01-symbol.png") center/cover no-repeat;
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   transform: translateY(75%); 
+} */
+
+.technology__img{
+   position: absolute;
+   /* transform: translateY(80%); */
+   max-width: 80px;
+   max-height: 80px;
+   bottom: 0;
+}
+
+/* .technology__img_cloud{
+   width: 80px;
+   height: 80px;
+}
+
+.technology__img_secure{
+   width: 66px;
+   height: 66px;
+}
+
+.technology__img_pdf{
+   width: 70px;
+   height: 70px;
+}*/
+
+.technology__img_csv{
+   width: 47px;
+   } 

@@ -1,0 +1,44 @@
+.video-container{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.container-text{
+    max-width: 445px;
+    margin: 140px 94px 110px 165px; 
+}
+
+.video-title {
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.video-description {
+    margin-bottom: 24px;
+}
+.video-presentation{
+    width: 445px;
+    height: 311px;
+    margin-top: 94px;
+    margin-bottom: 95px;
+    background: url("/img/Video_bg.png") center/cover no-repeat;
+    position: relative;
+}
+
+.video-link{
+    text-decoration: none;
+    color: #ED4C5C;
+}
+
+.video-button{
+    background: url("/img/PlayButton.png") center/cover no-repeat;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
